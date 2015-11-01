@@ -1,0 +1,31 @@
+<div class="container">
+	<h1>{{beerCtrl.title}}</h1>
+
+	<form>
+		<div class="form-group">
+			<label for="name">Name</label>
+    		<input type="text" class="form-control" id="name" placeholder="Beer Name" data-ng-model="beerCtrl.beer.name">
+		</div>
+		<div class="form-group">
+			<label for="description">Description</label>
+    		<input type="text" class="form-control" id="description" placeholder="Beer description" data-ng-model="beerCtrl.beer.description">
+		</div>
+		<div class="form-group">
+			<label for="price">Price</label>
+    		<input type="text" class="form-control" id="price" placeholder="5.00" data-ng-model="beerCtrl.beer.price">
+		</div>
+		<div class="form-group">
+			<label for="category">Category</label>
+    		<input type="text" class="form-control" id="category" placeholder="Lagger beer" data-ng-model="beerCtrl.beer.category">
+		</div>
+		<div class="form-group">
+			<label for="alcohol">Alcohol</label>
+    		<input type="text" class="form-control" id="alcohol" placeholder="5.0" data-ng-model="beerCtrl.beer.alcohol">
+		</div>
+
+		<div class="pull-right">
+			<button class="btn btn-success" ng-click="beerCtrl.saveBeer()">Salvar</button>
+			<a href="#/beers" class="btn btn-danger">Cancelar</a>
+		</div>
+	</form>
+</div>
