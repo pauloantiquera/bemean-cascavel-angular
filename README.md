@@ -1,4 +1,4 @@
-# Be MEAN - Angular
+# Be MEAN - Cascavel - Angular
 
 Isso ae galera colaborem!!!
 
